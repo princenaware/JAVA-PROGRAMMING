@@ -41,7 +41,7 @@ class Car {
     }
 }
 
-public class constructoCar {
+public class constructorCar {
     public static void main(String[] args) {
 
         // Default constructor
