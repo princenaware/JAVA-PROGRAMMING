@@ -5,7 +5,7 @@
 // Then creating an object of the class and using its members.
 
 
-import java.util.*;
+
 class Student {
     // Data members (variables)
     String name;
