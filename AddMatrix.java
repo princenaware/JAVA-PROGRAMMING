@@ -1,3 +1,32 @@
+// Java program to add two matrices
+// The program takes two 3x3 matrices as input and outputs their sum.
+//  This is a simple example to demonstrate matrix addition in Java. It uses nested loops to read the matrices, perform the addition, and display the results.
+// Note: The size of the matrices is fixed to 3x3 for simplicity, but it can be modified to handle larger matrices if needed.
+// This program is useful for beginners to understand how to work with 2D arrays and perform basic operations on them in Java.
+// To run this program, simply copy and paste the code into a Java development environment or an online Java compiler, and execute it. You will be prompted to enter the elements of the two matrices, and then the program will display the original matrices and their sum.
+// Example input:
+ // Enter elements of first matrix:
+ // 1 2 3
+ // 4 5 6
+ // 7 8 9
+ // Enter elements of second matrix:
+ // 9 8 7
+ // 6 5 4
+ // 3 2 1
+ // Example output:
+ // FIRST MATRIX:
+ // 1 2 3
+ // 4 5 6
+ // 7 8 9
+ // SECOND MATRIX:
+ // 9 8 7
+ // 6 5 4
+ // 3 2 1
+ // ADDITION MATRIX:
+ // 10 10 10
+ // 10 10 10
+ // 10 10 10
+    
 import java.util.Scanner;
 
 class AddMatrix {
