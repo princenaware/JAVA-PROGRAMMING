@@ -1,26 +1,27 @@
 import java.util.Scanner;
 
 /**
- * A simple Java Quiz Game that tests users' knowledge of Java programming concepts.
- * The game includes multiple-choice questions, scoring, and high score tracking.
+ * Java Quiz Game - A console-based quiz application that tests knowledge of Java programming concepts.
+ * Features include multiple-choice questions, scoring, high score tracking, and replay functionality.
  */
 public class JavaQuizGame {
 
-    // Static variable to keep track of the highest score achieved across all quiz attempts
+    // Static variable to track the highest score achieved across all quiz attempts
     static int highScore = 0;
 
     /**
-     * Main method that serves as the entry point of the program.
-     * Displays a menu and handles user choices for starting quiz, viewing rules, or exiting.
-     * @param args command line arguments (not used in this program)
+     * Main method - Entry point of the program.
+     * Displays the main menu and handles user choices for starting quiz, viewing rules, or exiting.
      */
     public static void main(String[] args) {
 
+        // Create a Scanner object to read user input from the console
         Scanner sc = new Scanner(System.in);
 
-        // Main game loop that continues until user chooses to exit
+        // Infinite loop to keep the menu running until user chooses to exit
         while (true) {
 
+            // Display the main menu with options
             System.out.println("\n================================");
             System.out.println("         JAVA QUIZ GAME");
             System.out.println("================================");
@@ -31,7 +32,7 @@ public class JavaQuizGame {
             System.out.print("Enter your choice: ");
             int choice = sc.nextInt();
 
-            // Handle user's menu choice
+            // Handle user choice using if-else statements
             if (choice == 1) {
                 startQuiz(sc);
             }
@@ -40,19 +41,20 @@ public class JavaQuizGame {
             }
             else if (choice == 3) {
                 System.out.println("Thank you for playing!");
-                break;
+                break; // Exit the loop and end the program
             }
             else {
                 System.out.println("Invalid choice!");
             }
         }
 
+        // Close the scanner to free up resources
         sc.close();
     }
 
     /**
      * Displays the rules of the quiz game to the user.
-     * Explains the number of questions, scoring system, and input format.
+     * Shows scoring system, number of questions, and input format.
      */
     public static void showRules() {
 
@@ -65,13 +67,14 @@ public class JavaQuizGame {
     }
 
     /**
-     * Starts the quiz by presenting questions to the user, collecting answers,
+     * Starts and conducts the quiz by presenting questions, collecting answers,
      * calculating score, and displaying results. Also handles replay functionality.
      * @param sc Scanner object for reading user input
      */
     public static void startQuiz(Scanner sc) {
 
-        int score = 0; // Variable to track the user's current score
+        // Initialize score counter for this quiz attempt
+        int score = 0;
 
         // Array containing all quiz questions
         String questions[] = {
@@ -104,9 +107,10 @@ public class JavaQuizGame {
         // Array containing the correct answers for each question
         char answers[] = {'A','B','B','A','C','B','D','C','B','B'};
 
-        // Loop through each question
+        // Loop through each question in the quiz
         for(int i = 0; i < questions.length; i++) {
 
+            // Display question number and the question text
             System.out.println("\n--------------------------------");
             System.out.println("Question " + (i+1) + " of " + questions.length);
             System.out.println(questions[i]);
@@ -116,13 +120,14 @@ public class JavaQuizGame {
                 System.out.println(options[i][j]);
             }
 
+            // Prompt user for answer and read input
             System.out.print("Enter your answer: ");
             char userAnswer = sc.next().toUpperCase().charAt(0);
 
-            // Check if the user's answer is correct
+            // Check if user's answer matches the correct answer
             if(userAnswer == answers[i]) {
                 System.out.println("Correct Answer!");
-                score++;
+                score++; // Increment score for correct answer
             }
             else {
                 System.out.println("Wrong Answer!");
@@ -130,14 +135,15 @@ public class JavaQuizGame {
             }
         }
 
-        // Calculate the percentage score
+        // Calculate percentage score
         int percentage = (score * 100) / questions.length;
 
-        // Display the quiz results
+        // Display quiz results header
         System.out.println("\n================================");
         System.out.println("          QUIZ RESULT");
         System.out.println("================================");
 
+        // Display detailed score breakdown
         System.out.println("Correct Answers: " + score);
         System.out.println("Wrong Answers: " + (questions.length - score));
         System.out.println("Score: " + score + "/" + questions.length);
@@ -156,6 +162,7 @@ public class JavaQuizGame {
             highScore = score;
         }
 
+        // Display the current high score
         System.out.println("High Score: " + highScore);
 
         // Ask user if they want to play again
@@ -165,7 +172,7 @@ public class JavaQuizGame {
 
         int retry = sc.nextInt();
 
-        // If user chooses to play again, restart the quiz
+        // If user chooses to play again, recursively call startQuiz
         if(retry == 1) {
             startQuiz(sc);
         }
