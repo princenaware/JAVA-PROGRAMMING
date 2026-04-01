@@ -1,3 +1,4 @@
+package Practice;
 // Java program to add two matrices
 // The program takes two 3x3 matrices as input and outputs their sum.
 //  This is a simple example to demonstrate matrix addition in Java. It uses nested loops to read the matrices, perform the addition, and display the results.

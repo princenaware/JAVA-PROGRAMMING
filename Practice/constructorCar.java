@@ -1,3 +1,4 @@
+package Practice;
 // Practical - 2
 // Aim: Write a program to demonstrate Constructor and its types in Java
 // Date: 13/01/2026
@@ -7,8 +8,6 @@
 // 2. Parameterized Constructor: A constructor that takes parameters to initialize the object with specific values.
 // 3. Copy Constructor: A constructor that creates a new object as a copy of an existing object. It takes an object of the same class as a parameter and copies its values to the new object.       
 // Note: Java does not provide a default copy constructor, but you can create one by defining a constructor that takes an object of the same class as a parameter.
-
-// In this program, we have defined a Car class with three types of constructors: default, parameterized, and copy constructor. The main method creates objects using each type of constructor and displays their details using the display method.
 
 class Car {
     String brand;

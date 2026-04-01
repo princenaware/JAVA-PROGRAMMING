@@ -1,3 +1,4 @@
+package Practice;
 // This is a simple implementation of the FizzBuzz problem in Java. The program prints "Fizz" for numbers that are multiples of 3, "Buzz" for numbers that are multiples of 5, and "FizzBuzz" for numbers that are multiples of both 3 and 5. For all other numbers, it simply prints the number itself.
 // To run this program, simply copy and paste the code into a Java development environment or an public class FizzBuzz {
 // online Java compiler, and execute it. You will see the output for numbers from 1 to 20, demonstrating the FizzBuzz logic in action.

@@ -1,3 +1,4 @@
+package Practice;
 // Java program to demonstrate class and objects
 // Useful for beginners and college students to understand OOP concepts in Java.
 // Creating a class named Student

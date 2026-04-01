@@ -1,3 +1,4 @@
+package Practice;
  //  This program includes simple Java switch-case programs 
  //  created for practice and learning decision-making concepts in Java.
  //  Useful for beginners and college students.

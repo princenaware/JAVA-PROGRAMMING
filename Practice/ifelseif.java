@@ -1,3 +1,4 @@
+package Practice;
 //This program demonstrates the use of if-else-if statements in Java.
 //It checks the value of a string variable 'city' and prints a corresponding message.
 //Useful for beginners and college students.

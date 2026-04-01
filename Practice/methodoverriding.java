@@ -1,3 +1,4 @@
+package Practice;
 // This program demonstrates method overriding in Java. Method overriding occurs when a subclass provides a specific implementation of a method that is already defined in its superclass. In this example, we have a superclass called 'Bank' with a method 'getInterest()' that returns an interest rate. The subclasses 'SBI' and 'HDFC' override this method to provide their own specific interest rates. In the main method, we create instances of both subclasses and call the 'getInterest()' method to see the overridden behavior in action.
 // To run this program, simply copy and paste the code into a Java development environment or an online Java compiler, and execute it. You will see the output for both SBI and HDFC interest rates, demonstrating method overriding in Java.
 // Example output:

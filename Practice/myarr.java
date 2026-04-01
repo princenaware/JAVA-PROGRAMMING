@@ -1,3 +1,4 @@
+package Practice;
 class myarr {
     public static void main(String[] args) {
     int[] myarr = new int[5];

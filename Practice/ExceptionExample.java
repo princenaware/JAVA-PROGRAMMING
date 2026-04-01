@@ -1,3 +1,4 @@
+package Practice;
 // This is an example of handling exceptions in Java. In this program, we attempt to divide a number by zero, which will throw an ArithmeticException
 // The exception is caught in the catch block, and a message is printed to the user. The finally block is executed regardless of whether an exception was thrown or not, ensuring that a final message is always displayed.
 // To run this program, simply copy and paste the code into a Java development environment or an online Java compiler, and execute it. You will see the output indicating that division by zero is not allowed, followed by a message confirming that the program executed successfully.

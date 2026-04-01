@@ -1,3 +1,4 @@
+package Practice;
 // This program demonstrates the use of interfaces in Java. An interface is a reference type in Java that can contain only constants, method signatures, default methods, static methods, and nested types. It is a way to achieve abstraction and multiple inheritance in Java. In this example, we have defined an interface called 'Vehicle' with two methods: 'start()' and 'stop()'. We then have two classes, 'Car' and 'Bike', that implement the 'Vehicle' interface and provide their own implementations of the 'start()' and 'stop()' methods. Finally, in the main method, we create instances of 'Car' and 'Bike' and call their respective methods to demonstrate polymorphism.
 // To run this program, simply copy and paste the code into a Java development environment or an online Java compiler, and execute it. You will see the output for both the Car and Bike starting and stopping, demonstrating the use of interfaces in Java.        
 // Example output:

@@ -1,3 +1,4 @@
+package Practice;
 //  This is a simple Java program using if-else conditions.
 //  It is created for practice and learning basic decision-making concepts in Java,
 //  especially for beginners and college students.

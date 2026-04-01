@@ -1,3 +1,4 @@
+package Practice;
 // This program searches for a number in an array and returns whether it was found or not.
 // To run this program, simply copy and paste the code into a Java development environment or an online Java compiler, and execute it. You will be prompted to enter a number to search for, and the program will display whether the number was found in the predefined array or not.
 // Example input:
