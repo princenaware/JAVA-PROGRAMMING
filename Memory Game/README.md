@@ -196,8 +196,6 @@ Contributions are welcome! Here's how you can help:
 - Add sound effects
 - Multiplayer support
 
-## 📄 License
-This project is open source and available under the [MIT License](../LICENSE).
 
 ---
 
