@@ -56,9 +56,6 @@ This repository contains Java programs, practice codes, and tutorials related to
 ## 🤝 Contributing
 Feel free to fork this repository and submit pull requests! If you find any bugs or have suggestions for improvements, please open an issue.
 
-## 📄 License
-This project is open source and available under the [MIT License](LICENSE).
-
 ---
 
 **Happy Coding! 🎉** If you find this repository helpful, don't forget to give it a ⭐ star!
