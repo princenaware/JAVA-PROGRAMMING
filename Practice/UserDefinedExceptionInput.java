@@ -1,4 +1,4 @@
-package Practice;
+
 // This program demonstrates the use of user-defined exceptions in Java. A user-defined exception is a custom exception that you can create by extending the Exception class. In this example, we have defined a custom exception called 'InvalidAgeException' that is thrown when a user enters an age that is less than 18. The main method prompts the user to enter their age and checks if it is valid. If the age is invalid, the custom exception is thrown and caught in the catch block, where an appropriate message is displayed to the user. Additionally, we have a catch block to handle any other exceptions that may occur during input, such as entering a non-integer value. Finally, we have a finally block that executes regardless of whether an exception was thrown or not, indicating that the program has ended.
 // To run this program, simply copy and paste the code into a Java development environment or an online Java compiler, and execute it. You will be prompted to enter your age, and based on the input, you will see whether you are eligible to vote or if an exception has occurred. This program is a great way to understand how to create and use user-defined exceptions in Java, as well as how to handle them effectively.   
 // Example output:
@@ -33,9 +33,7 @@ public class UserDefinedExceptionInput {
         catch (InvalidAgeException e) {
             System.out.println("Exception: " + e.getMessage());
         }
-        catch (Exception e) {
-            System.out.println("Invalid input! Please enter a number.");
-        }
+       
         finally {
             System.out.println("Program ended");
         }
