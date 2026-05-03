@@ -2,13 +2,7 @@
 
 Welcome to my Java Programming repository! This collection showcases my journey through learning Java, featuring a variety of programs, practice exercises, and fun projects. Whether you're a beginner looking to learn Java concepts or someone exploring different programming paradigms, this repo has something for you.
 
-## 📋 Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [How to Run](#how-to-run)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## 📖 About
 This repository contains Java programs, practice codes, and tutorials related to my college Java Programming subject. It includes fundamental concepts, experiments, and hands-on learning done during my Java journey. From basic syntax to advanced topics like object-oriented programming, data structures, and game development, this repo documents my progress and serves as a reference for others learning Java.
